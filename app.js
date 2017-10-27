@@ -1,7 +1,8 @@
 $(document).ready(function(){
-	$(window).scroll(function(){
-		console.log($(this).scrollTop());
-		if($(this).scrollTop() > 0){
+
+
+	function changeMenuByScroll(){
+		if($(this).scrollTop() > 100){
 			$('.interno-1').addClass('header2');
 		} else{
 			$('.interno-1').removeClass('header2');
@@ -21,5 +22,14 @@ $(document).ready(function(){
 		} else{
 			$('.contact').removeClass('fondo-verde');
 		}
+
+	}
+
+	changeMenuByScroll();
+
+	$(window).scroll(function(){
+		changeMenuByScroll();
 	});
+
+
 });

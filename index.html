@@ -15,7 +15,7 @@
 
 </head>
 <body>
-    <header class="header2">
+    <header>
     	<div class="contenedor interno-1">
 		    <h2><strong>START BOOTSTRAP</strong></h2>
 		    <nav class="container-port">
@@ -39,7 +39,7 @@
     		<p>Web Developer-Graphic Artist-User Experience Designer</p>
     	</div>
     </section>
-    <section class="contenedor interno-3">
+    <section class="contenedor interno-3" id="portafolio">
     	<div class="text-2">
     		<h2><strong>PORTFOLIO</strong></h2>
     		<div class="strip-2">
@@ -87,32 +87,32 @@
 		    </ul>
     	</div>
     </section>
-    <section class="contenedor-4 interno-4" >
+    <section class="contenedor interno-4" id="about">
     	<div class="text-4">
     		<h2><strong>ABOUT</strong></h2>
     		<div class="strip-1">
     			<i class="fa fa-star fa-2x" aria-hidden="true"></i>
     		</div>
     	</div>
+    	<!-- no utilize bootstrap, forma normal en css -->
     	<div class="parrafos-columna">
     		<p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
     		<p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
     	</div>
-    	<div class="boton">
+    	<div class="boton-descarga">
     	    <a href="#" class="dow">
     	    	<i class="fa fa-download" aria-hidden="true"></i>
     			<p>Download Theme</p>
     		</a>
     	</div>
     </section>
-    <section class="contenedor interno-5">
+    <section class="contenedor interno-5" id="contactme">
 	    <div class="text-5">
 	    	<h2><strong>CONTACT ME</strong></h2>
 	    	<div class="strip-2">
 	    		<i class="fa fa-star fa-2x" aria-hidden="true"></i>
 	    	</div>
 	    </div>
-  
     	<form action="">
     		<input type="Name" placeholder="Name" class="name">
     		<hr>
@@ -120,7 +120,7 @@
     		<hr>
     		<input type="Phone Number" placeholder="Phone Number" class="phone">
     		<hr>
-    		<textarea name="mensaje" rows="10" cols="40" placeholder="Message" class="message"></textarea>
+    		<textarea name="mensaje" rows="5" cols="40" placeholder="Message" class="message"></textarea>
     		<hr>
     		<div class="enviar">
     			<button class="btn btn-success btn-lg"><strong>Send</strong></button> 
@@ -128,40 +128,31 @@
     	</form>
     </section>
     <section class="contenedor interno-6">
+    <!-- aqui utilize clases de bootstrap para hacer fila-columnas -->
     	<div class="row">
 	    	<div class="col">
-	    		<h3>LOCATION</h3>
-	    		<p>3481 Melrose Place Beverly Hills, CA 90210</p>
+	    		<h4>LOCATION</b></h4>
+	    		<p>3481 Melrose Place</p>
+	    		<p>Beverly Hills, CA 90210</p>
 	    	</div>
 	    	<div class="col">
-	    		<h3>AROUND THE WEB</h3>
-	    		<div>
-	    		    <a href="#">
-		    		    <i class="fa fa-facebook" aria-hidden="true"></i>
-		    		</a>
-	    		    <a href="#">
-	    		    	<i class="fa fa-google-plus" aria-hidden="true"></i>
-	    		    </a>
-	    		    <a href="#">
-	    		    	<i class="fa fa-twitter" aria-hidden="true"></i>
-	    		    </a>
-	    		    <a href="#">
-	    		    	<i class="fa fa-linkedin" aria-hidden="true"></i>
-	    		    </a>
-	    		    <a href="#">
-	    		    	<i class="fa fa-dribbble" aria-hidden="true"></i>
-	    		    </a>	
+	    		<h4>AROUND THE WEB</h4>
+	    		<div class="iconos">
+	    		    <a href="#" class="circulo"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+	    		    <a href="#" class="circulo"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+	    		    <a href="#" class="circulo"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+	    		    <a href="#" class="circulo"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+	    		    <a href="#" class="circulo"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
 	    		</div>
 	    	</div>
 	    	<div class="col">
-	    		<h3>ABOUT FREELANCER</h3>
-	    		<p>Frelances is a free to use, open source Bootstrap theme created by Start Bootstrap.</p>
+	    		<h4>ABOUT FREELANCER</h4>
+	    		<p>Frelances is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap.</a></p>
 	    	</div>
     	</div>
     </section>
-    <footer class="contenedor interno-7">
+    <footer class="contenedor pie-pagina">
     	<p>Copyright&#169; Your Website 2017</p>
-    </footer>
-	
+    </footer>	
 </body>
 </html>
