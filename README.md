@@ -1,4 +1,24 @@
 # Freelancer
+Pasos a seguir
+
+Dividir el html en partes desde la cabeza a los pies. utilizando header, section, footer.
+
+En header hace la primera parte con un nav.
+
+luego section para la segunda parte, agregar imagen.
+
+otra section con el portfolio, agregar imagenes, buscar como hacer el efecto de 
+encima de color verde.
+
+otra section de about, utilizar columnas, boton de descarga.
+
+otra section con el formulario de contacto, utilizar input.
+
+una section con todos los iconos como face y otros.
+
+por ultimo footer una pequeño parrafo.
+
+extra inventigar algunos efectos.
 
 * **Track:** _Common Core_
 * **Curso:** _Creando tu primer sitio web interactivo_

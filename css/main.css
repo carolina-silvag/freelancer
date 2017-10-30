@@ -1,4 +1,4 @@
-
+/*utilize cosas que entendi al invetigar*/
 body {
     margin: 0 auto;
     line-height: 1.71429;
@@ -7,10 +7,10 @@ body {
     width: 100%;
     text-align: center;
     font-family: 'Montserrat';
-    /*z-index: 10;*/
 }
 /*font-family: 'Lato', sans-serif;
 font-family: 'Montserrat', sans-serif;*/
+/*desde aqui se modifica interno-1 la cabeza*/
 .interno-1{
     background-color: #2c3e50;
     height: 120px;
@@ -20,7 +20,7 @@ font-family: 'Montserrat', sans-serif;*/
 .interno-1 h2{
     display: inline-block;
     color: #fff;
-    margin-top: 2%;
+    margin-top: 3%;
    
 }
 .container-port{
@@ -49,37 +49,47 @@ font-family: 'Montserrat', sans-serif;*/
 .container-port ul li a:hover{
     color: #09bb98;
 }
+/*propiedades que se utilizar para el efecto de scroll hacia abajo*/
 .header2{
     position: fixed;
     width: 100%;
     height: 80px;
 }
+.header2 h2,.header2 .container-port{
+    margin-top: 1.5%;
+}
+/*al pasar por donde es correcto se marca el fondo de las 
+palabras de navegador*/
 .fondo-verde{
     background-color: #18bc9c;
     border-radius: 5px;
     padding: 2%;
 }
+/*al pasar por donde es correcto se marca*/
 .fondo-verde a:hover{
     color: #fff !important;
 }
 
+/*desde aqui se modifica interno-2*/
 .interno-2,.interno-4{
     background-color: #18bc9c;
     height: 100%;
 }
-.img-profile img{
+/*tamaño de imagen*/
+.img-profile{
+    padding-top: 15%;
     width: 20%;
-    height: 20%;
-    margin-top: 12%;
+    display: inline-block;
 }
-.text-1,.text-4{
+.text-2,.text-4{
     padding-top: 5%;
     color: #fff;
 }
-.text-1 h1{
+.text-2 h1{
     font-size: 500%;
     margin-bottom: 2%;
 }
+/*estrellas blancas*/
 .strip-1:before,.strip-1:after{
     content: "";
     border: 2px solid #fff;
@@ -88,18 +98,14 @@ font-family: 'Montserrat', sans-serif;*/
     margin-bottom: 0.6%; 
     margin-right: 0.4%;
 }
-.text-1 p{
+/*modificacion al parrafo del texto*/
+.text-2 p{
     font-family: 'Lato', sans-serif;
     font-size: 170%;
-    margin-top: 3%;
-    /*border: 1px solid black;*/ 
+    margin-top: 3%; 
     margin-bottom: 5%;
 }
-.interno-3,.interno-5{
-    width: 100%;
-    height: 100%;
-}
-
+/*estrellas negras se le agrega una raya antes y despues*/
 .strip-2:before,.strip-2:after{
     content: "";
     border: 2px solid #2c3e50;
@@ -109,11 +115,14 @@ font-family: 'Montserrat', sans-serif;*/
     margin-bottom: 0.6%; 
     margin-right: 0.4%;
 }
-.text-2, .text-5{
+/*color casi negro de las letras*/
+.text-3, .text-5{
     color: #2c3e50; 
     margin-top: 5%;
 }
-.text-2 h2,.text-5 h2{
+
+/*desde aqui se modifica section-3 o interno-3*/
+.text-3 h2,.text-5 h2{
     font-size: 300%;
     color: black; 
     margin-bottom: 3%;
@@ -122,36 +131,25 @@ font-family: 'Montserrat', sans-serif;*/
     display: inline-block;
     width: 80%;
     text-align: center;
-    margin-bottom: 10%;
+    margin-top: 3%;
+    margin-bottom: 5%;  
 }
-.imagenes ul li a img{
-    width: 100%;
-    display: inline-block; 
+.imagenes .row .col img{
+    padding: 3%;
 }
-
-.imagenes ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    overflow: auto;
-}
-.imagenes ul li{
-    width: 30%;
-    text-align: center;
-    float: left;
-    margin: 1%;  
-}
-.encima {
+/*¿? aun no descubro como hacer que automaticamente se quede del porte de la foto*/
+.cubrir-al-pasar {
     position: absolute;
-    display: inline-block;
     opacity: 0;
     background-color: #18bc9c;
-    width: 24%;
-    height: 36%;
+    width: 90%;
+    height: 96%;
 }
-.encima:hover {
+/*para que cuando cubra sea transparente y se pueda notar la imagen de fondo*/
+.cubrir-al-pasar:hover {
     opacity: 0.8;
 }
+/*modifica icono de busqueda(+)*/
 .fa-search-plus{
     margin-top: 30%;
     color: #fff;
@@ -183,6 +181,7 @@ font-family: 'Montserrat', sans-serif;*/
     margin-top: 3%;
     width: 20%;
 }
+
 /*modifia a la palabra e icono*/
 .dow > i,.dow > p{
     padding-top: 3%;
@@ -252,6 +251,11 @@ textarea:focus{
 .interno-6 .col p,.interno-6 .col i{
     margin: 0;
     font-size: 120%;
+}
+.free{
+    margin-right: 2%;
+}
+.interno-6 .col p{
     color: #fff;
 }
 .circulo {
